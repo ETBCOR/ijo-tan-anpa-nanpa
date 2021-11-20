@@ -1,0 +1,26 @@
+### Site metadata
+
+title: lipu-sulilonsitelen-pona
+description: lipu-suli pi-lipu-mute lon sitelen-pona
+
+### Build settings
+
+url: https://joelthomastr.github.io
+baseurl: /lipu-sulilonsitelen-pona
+
+theme: just-the-docs
+
+defaults:
+  - scope:
+      path: "*.md"
+    values:
+      layout: page
+
+exclude:
+  - LICENSE
+  - README.md
+  - sample.png
+
+color_scheme: dark
+
+search_enabled: false
